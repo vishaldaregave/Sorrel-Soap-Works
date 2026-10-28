@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated soap still life</title>
+  <desc id="desc">Three hand-cut soap bars stacked on a plaster shelf with cedar and dried grasses.</desc>
+  <defs>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.12"/>
+      </feComponentTransfer>
+    </filter>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ddd0bb"/>
+      <stop offset="1" stop-color="#cebca2"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b89b77"/>
+      <stop offset="1" stop-color="#9e805f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#wall)"/>
+  <path d="M0 0h800v710H0z" fill="#d8c9b3"/>
+  <path d="M92 0h420l-88 710H0V96z" fill="#e4d7c2" opacity=".55"/>
+  <rect y="704" width="800" height="296" fill="url(#table)"/>
+  <path d="M0 704h800" stroke="#8b6f51" stroke-width="2" opacity=".55"/>
+  <path d="M0 760h800" stroke="#cfb38b" stroke-width="1" opacity=".22"/>
+
+  <g opacity=".3" fill="none" stroke="#ae9678" stroke-width="7" stroke-linecap="round">
+    <path d="M578 0c-9 130 17 217 91 289 48 47 65 88 66 145"/>
+    <path d="M664 116c-33 4-57-14-77-52"/>
+    <path d="M680 189c-39 1-67-19-88-58"/>
+    <path d="M692 259c-33-2-59-24-76-57"/>
+    <path d="M712 335c-27-5-48-23-63-51"/>
+    <path d="M727 413c-24-8-42-27-53-53"/>
+    <path d="M596 97c38 1 64-15 78-35"/>
+    <path d="M642 167c42 3 70-12 87-38"/>
+  </g>
+
+  <g opacity=".22" filter="url(#soft)" fill="#5d4d39">
+    <ellipse cx="415" cy="780" rx="245" ry="50"/>
+    <ellipse cx="270" cy="832" rx="180" ry="30"/>
+  </g>
+
+  <g transform="translate(92 294) rotate(-8 280 150)">
+    <rect x="0" y="30" width="420" height="182" rx="21" fill="#c9b797"/>
+    <rect x="0" y="0" width="420" height="175" rx="21" fill="#e7dac1"/>
+    <path d="M22 0h376a21 21 0 0 1 21 21v9H1v-9A21 21 0 0 1 22 0z" fill="#f0e6d1" opacity=".7"/>
+    <rect x="58" y="58" width="304" height="58" rx="29" fill="#d8c8ab" opacity=".55"/>
+    <text x="210" y="94" text-anchor="middle" font-family="Georgia, serif" font-size="24" letter-spacing="12" fill="#a99779">SORREL</text>
+    <text x="210" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" letter-spacing="3.4" fill="#b4a182">OLIVE + OAT / 120 G</text>
+  </g>
+
+  <g transform="translate(290 440) rotate(5 250 140)">
+    <ellipse cx="235" cy="183" rx="226" ry="40" fill="#4c4430" opacity=".2" filter="url(#soft)"/>
+    <rect x="0" y="27" width="420" height="174" rx="18" fill="#252d24"/>
+    <rect x="0" y="0" width="420" height="168" rx="18" fill="#394435"/>
+    <path d="M20 0h380a18 18 0 0 1 18 18v8H2v-8A18 18 0 0 1 20 0z" fill="#4d5944" opacity=".6"/>
+    <g opacity=".24" fill="#c9bf9d">
+      <circle cx="72" cy="56" r="2.2"/><circle cx="95" cy="123" r="1.6"/><circle cx="141" cy="86" r="2.5"/>
+      <circle cx="188" cy="134" r="1.8"/><circle cx="241" cy="61" r="2.4"/><circle cx="318" cy="122" r="1.8"/>
+      <circle cx="363" cy="75" r="2.1"/><circle cx="374" cy="139" r="1.4"/><circle cx="55" cy="146" r="1.8"/>
+    </g>
+    <rect x="72" y="48" width="276" height="68" rx="34" fill="none" stroke="#94a184" stroke-width="1" opacity=".38"/>
+    <text x="210" y="91" text-anchor="middle" font-family="Georgia, serif" font-size="26" letter-spacing="13" fill="#aab49a" opacity=".7">SORREL</text>
+    <text x="210" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" letter-spacing="3.2" fill="#aab49a" opacity=".62">CEDAR + VETIVER</text>
+  </g>
+
+  <g transform="translate(155 616) rotate(-3 260 125)">
+    <ellipse cx="255" cy="173" rx="220" ry="35" fill="#5a3b2b" opacity=".22" filter="url(#soft)"/>
+    <rect x="0" y="25" width="452" height="170" rx="18" fill="#884a35"/>
+    <rect x="0" y="0" width="452" height="163" rx="18" fill="#b9674d"/>
+    <path d="M20 0h412a18 18 0 0 1 18 18v8H2v-8A18 18 0 0 1 20 0z" fill="#c97b60" opacity=".6"/>
+    <rect x="67" y="44" width="318" height="72" rx="36" fill="none" stroke="#7f412f" stroke-width="1" opacity=".35"/>
+    <text x="226" y="89" text-anchor="middle" font-family="Georgia, serif" font-size="26" letter-spacing="13" fill="#762f22" opacity=".7">SORREL</text>
+    <text x="226" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" letter-spacing="3.2" fill="#7d3828" opacity=".8">ROSE + PINK CLAY</text>
+  </g>
+
+  <g transform="translate(512 222)" fill="none" stroke="#43503a" stroke-linecap="round">
+    <path d="M20 160c72 17 128 60 155 149" stroke-width="6"/>
+    <path d="M49 193c-35 1-54-22-59-61" stroke-width="4"/>
+    <path d="M69 214c-3-39 17-66 55-82" stroke-width="4"/>
+    <path d="M91 240c37 6 61-10 79-45" stroke-width="4"/>
+    <path d="M112 272c-33-7-51-34-53-73" stroke-width="4"/>
+    <path d="M135 306c36 7 62-8 83-41" stroke-width="4"/>
+    <path d="M86 174c-35-12-52-38-49-75" stroke-width="4"/>
+    <path d="M132 212c29-22 35-52 20-90" stroke-width="4"/>
+    <path d="M164 259c-2-43 16-74 51-92" stroke-width="4"/>
+    <path d="M188 320c30-17 44-43 40-79" stroke-width="4"/>
+  </g>
+
+  <g transform="translate(122 182)" fill="none" stroke="#7a7351" stroke-linecap="round">
+    <path d="M22 260c17-90 43-166 95-239" stroke-width="3"/>
+    <path d="M52 186c-31-8-47-28-49-60" stroke-width="2"/>
+    <path d="M62 148c-26-14-37-35-32-63" stroke-width="2"/>
+    <path d="M75 112c-19-18-23-40-10-65" stroke-width="2"/>
+    <path d="M87 82c-10-21-5-41 14-59" stroke-width="2"/>
+    <path d="M47 219c24-2 43-15 58-38" stroke-width="2"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" fill="#493f32">
+    <text x="66" y="838" font-size="10" letter-spacing="3">SMALL BATCH / 014</text>
+    <text x="66" y="862" font-family="Georgia, serif" font-size="26" letter-spacing="1">Cedar, olive, clay.</text>
+    <text x="66" y="888" font-size="9" letter-spacing="2.5" opacity=".7">CURED SIX WEEKS / CUT BY HAND</text>
+    <text x="744" y="862" text-anchor="end" font-size="9" letter-spacing="2.5" opacity=".65">SORREL SOAP WORKS</text>
+  </g>
+
+  <rect width="800" height="1000" filter="url(#grain)" opacity=".5" style="mix-blend-mode:multiply"/>
+</svg>

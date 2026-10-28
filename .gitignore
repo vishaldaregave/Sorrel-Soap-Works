@@ -1,0 +1,5 @@
+.commandcode/
+*.png
+assets/*-preview.png
+assets/preview-verification.png
+.vercel/

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">The soap cutting table</title>
+  <desc id="desc">A documentary-style illustration of a soap loaf being cut into bars on a workshop table.</desc>
+  <defs>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.76" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.1"/></feComponentTransfer>
+    </filter>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7c8b2"/>
+      <stop offset="1" stop-color="#bda98d"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a78762"/>
+      <stop offset="1" stop-color="#8d6d4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wall)"/>
+  <path d="M0 0h1600v560H0z" fill="#d3c3ac"/>
+  <path d="M230 0h530L584 560H80z" fill="#e5d8c3" opacity=".45"/>
+  <rect y="555" width="1600" height="445" fill="url(#table)"/>
+  <path d="M0 555h1600" stroke="#755a3c" stroke-width="3" opacity=".5"/>
+  <g opacity=".32" fill="none" stroke="#a58e70" stroke-width="8" stroke-linecap="round">
+    <path d="M1250 0c-16 128-5 234 54 313 44 59 57 131 49 230"/>
+    <path d="M1333 95c-36 3-61-17-78-55"/>
+    <path d="M1360 167c-38 0-66-19-82-57"/>
+    <path d="M1373 242c-35-3-58-24-70-55"/>
+    <path d="M1387 328c-28-6-47-27-56-55"/>
+    <path d="M1288 68c39 0 67-19 83-48"/>
+    <path d="M1330 141c40 2 70-13 88-42"/>
+  </g>
+  <g opacity=".3" filter="url(#soft)" fill="#4d3b29">
+    <ellipse cx="826" cy="758" rx="386" ry="58"/>
+    <ellipse cx="1303" cy="798" rx="178" ry="36"/>
+  </g>
+
+  <g transform="translate(390 578) rotate(-4 375 120)">
+    <rect x="0" y="55" width="750" height="175" rx="16" fill="#89704f"/>
+    <rect x="0" y="0" width="750" height="190" rx="16" fill="#d8c8ab"/>
+    <path d="M20 0h710a20 20 0 0 1 20 20v9H0v-9A20 20 0 0 1 20 0z" fill="#e7d9bf" opacity=".7"/>
+    <rect x="38" y="24" width="674" height="142" rx="8" fill="#bda989" opacity=".28"/>
+  </g>
+
+  <g transform="translate(470 468) rotate(-4 330 130)">
+    <rect x="0" y="55" width="660" height="186" rx="15" fill="#c2af8d"/>
+    <rect x="0" y="0" width="660" height="190" rx="15" fill="#e5d7ba"/>
+    <path d="M18 0h624a18 18 0 0 1 18 18v10H0V18A18 18 0 0 1 18 0z" fill="#f1e6cf" opacity=".68"/>
+    <g stroke="#a99371" stroke-width="2" opacity=".65">
+      <path d="M132 0v190"/><path d="M264 0v190"/><path d="M396 0v190"/><path d="M528 0v190"/>
+    </g>
+    <g fill="#b59e7b" opacity=".4">
+      <ellipse cx="70" cy="91" rx="12" ry="4"/><ellipse cx="204" cy="133" rx="8" ry="3"/>
+      <ellipse cx="334" cy="60" rx="14" ry="4.5"/><ellipse cx="462" cy="126" rx="10" ry="3.5"/>
+      <ellipse cx="603" cy="81" rx="13" ry="4"/>
+    </g>
+    <text x="330" y="104" text-anchor="middle" font-family="Georgia, serif" font-size="22" letter-spacing="12" fill="#a48e6b" opacity=".75">SORREL</text>
+  </g>
+
+  <g transform="translate(1094 352)" fill="none" stroke="#4a4937" stroke-linecap="round">
+    <path d="M20 40v438" stroke-width="8"/>
+    <path d="M236 40v438" stroke-width="8"/>
+    <path d="M20 72h216" stroke-width="5"/>
+    <path d="M20 459h216" stroke-width="5"/>
+    <path d="M140 72v387" stroke-width="2" stroke-dasharray="5 8"/>
+  </g>
+
+  <g transform="translate(994 664)">
+    <ellipse cx="96" cy="125" rx="122" ry="28" fill="#5f4a33" opacity=".28" filter="url(#soft)"/>
+    <path d="M-10 22c10 86 45 128 106 128s96-42 106-128z" fill="#ddd1bc"/>
+    <ellipse cx="96" cy="22" rx="106" ry="31" fill="#eee4d0"/>
+    <ellipse cx="96" cy="22" rx="76" ry="19" fill="#c8b99f" opacity=".38"/>
+    <path d="M52 17c20-17 48-20 86-7 15 5 25 12 31 21-27 12-61 14-101 4-13-4-18-10-16-18z" fill="#f3ead7"/>
+    <path d="M71 8c11-9 24-11 38-6" stroke="#d7c9b0" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(273 758)" fill="none" stroke="#655f43" stroke-linecap="round">
+    <path d="M20 190c28-76 57-133 94-177" stroke-width="3"/>
+    <path d="M58 131c-24-6-37-23-39-48" stroke-width="2.4"/>
+    <path d="M74 96c-20-12-29-30-25-52" stroke-width="2.4"/>
+    <path d="M91 65c-13-16-16-34-6-53" stroke-width="2.4"/>
+    <path d="M54 154c19 0 34-10 47-29" stroke-width="2.4"/>
+    <path d="M77 115c20-2 35-14 44-34" stroke-width="2.4"/>
+  </g>
+
+  <g transform="translate(1266 721) rotate(12)" fill="#8c4f3a">
+    <path d="M0 41c21-24 38-22 48 0-17 19-33 20-48 0z"/>
+    <path d="M38 8c-3-21 8-30 25-19 0 16-9 22-25 19z"/>
+    <path d="M-19 7c18-15 31-10 31 7-14 10-25 8-31-7z"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" fill="#efe5d2">
+    <text x="68" y="78" font-size="11" letter-spacing="3.4">SORREL / PROCESS 01</text>
+    <path d="M68 98h145" stroke="#efe5d2" stroke-width="1" opacity=".5"/>
+    <text x="1532" y="78" text-anchor="end" font-size="11" letter-spacing="3.4">THE CUT / SMALL BATCH</text>
+  </g>
+  <g font-family="Georgia, serif" fill="#3d3326">
+    <text x="64" y="898" font-size="42" letter-spacing=".2">Six weeks of quiet, then one clean cut.</text>
+    <text x="66" y="930" font-family="Arial, sans-serif" font-size="10" letter-spacing="3" opacity=".7">FILM STILL / COLD PROCESS / 06:42</text>
+  </g>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity=".5" style="mix-blend-mode:multiply"/>
+</svg>
